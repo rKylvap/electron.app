@@ -1,3 +1,4 @@
 'use strict';
 
-angular.module('electronAngularDemo', ['ui.router']);
+angular.module('vendor', ['ui.router', 'ui.bootstrap']);
+angular.module('electronAngularDemo', ['vendor']);
