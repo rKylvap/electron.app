@@ -11,6 +11,8 @@
   "devDependencies": {
     "electron-prebuilt": "^0.36.2",
     "express": "^4.13.3",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "morgan": "^1.6.1",
+    "path": "^0.12.7"
   }
 }
