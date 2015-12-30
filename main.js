@@ -16,7 +16,7 @@ app.on('window-all-closed', function(){
 
 app.on('ready', function(){
     mainWindow = new BrowserWindow({ width: 800, height: 600 });
-    mainWindow.loadUrl(path.join('file://', __dirname, 'views/layout.html'));
+    mainWindow.loadUrl('http://'.concat(server.address().address.concat(':'.concat(server.address().port))));
     mainWindow.openDevTools();
 
     app.on('closed', function(){
